@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <limits.h> // For INT_MAX
+
+int find_min(int arr[], int size) {
+    if (size <= 0) {
+        printf("Error: Array is empty.\n");
+        return INT_MAX; // Return a large value if array is empty
+    }
+    
+    // Initialize min_val to the first element or INT_MAX for safety
+    int min_val = arr[0]; 
+    
+    for (int i = 1; i < size; i++) {
+        if (arr[i] < min_val) {
+            min_val = arr[i]; // Update min_val if a smaller element is found
+        }
+    }
+    
+    return min_val;
+}
+
+int main() {
+    int data[] = {45, 12, 78, 5, 99, 33};
+    int size = 6;
+    
+    int minimum = find_min(data, size);
+    
+    printf("The minimum element in the array is: %d\n", minimum);
+    return 0;
+}
