@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void do_while_countdown() {
+    int count = 5;
+
+    printf("Starting countdown:\n");
+    
+    // The 'do' block runs once
+    do {
+        printf("%d...\n", count);
+        count--;
+    } while (count > 0); // Condition is checked AFTER the first run
+
+    printf("Liftoff!\n");
+}
+
+int main() {
+    do_while_countdown();
+    return 0;
+}
