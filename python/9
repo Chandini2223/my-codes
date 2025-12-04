@@ -1,0 +1,14 @@
+def remove_duplicates(input_list):
+    """Removes duplicates from a list while maintaining order."""
+    
+    # Use a dictionary (or an ordered set if available/needed) to preserve order
+    # In Python 3.7+ (and CPython 3.6+), dictionaries maintain insertion order.
+    # We create a dictionary where keys are the unique items, then take the keys.
+    unique_items = list(dict.fromkeys(input_list))
+    return unique_items
+
+# Example usage
+data = [10, 20, 30, 20, 40, 10, 50]
+unique_data = remove_duplicates(data)
+print(f"Original: {data}")
+print(f"Unique: {unique_data}")
