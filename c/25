@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+void describe_day(int day_num) {
+    switch (day_num) {
+        case 1:
+            printf("Day %d is Sunday (Weekend).\n", day_num);
+            break;
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+            printf("Day %d is a Weekday.\n", day_num);
+            break;
+        case 7:
+            printf("Day %d is Saturday (Weekend).\n", day_num);
+            break;
+        default:
+            printf("Invalid day number. Please enter a number between 1 and 7.\n");
+    }
+}
+
+int main() {
+    describe_day(3);
+    describe_day(7);
+    describe_day(9);
+    return 0;
+}
