@@ -1,0 +1,13 @@
+def linear_search(data_list, target):
+    for i in range(len(data_list)):
+        if data_list[i] == target:
+            return i  # Return the index where the target is found
+    return -1  # Return -1 if the target is not found
+
+# Example usage
+numbers = [15, 72, 9, 45, 33]
+search_for_45 = 45
+search_for_100 = 100
+
+print(f"Index of {search_for_45}: {linear_search(numbers, search_for_45)}")
+print(f"Index of {search_for_100}: {linear_search(numbers, search_for_100)}")
