@@ -1,0 +1,23 @@
+class MaxFinder {
+    public static int findMax(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            return Integer.MIN_VALUE; // Or throw an exception
+        }
+        
+        int maxVal = arr[0]; // Start with the first element
+        
+        // Loop through the rest of the elements
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > maxVal) {
+                maxVal = arr[i]; // Update if a larger element is found
+            }
+        }
+        return maxVal;
+    }
+
+    public static void main(String[] args) {
+        int[] heights = {40, 15, 88, 22, 65};
+        int tallest = findMax(heights);
+        System.out.println("The maximum height is: " + tallest);
+    }
+}
