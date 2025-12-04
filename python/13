@@ -1,0 +1,26 @@
+def count_file_lines(filename="sample.txt"):
+    """Reads a file and counts the number of lines."""
+    line_count = 0
+    
+    # The 'with open(...)' structure ensures the file is closed automatically
+    try:
+        with open(filename, 'r') as file:
+            for line in file:
+                line_count += 1
+        return line_count
+    except FileNotFoundError:
+        return f"Error: File '{filename}' not found."
+    except Exception as e:
+        return f"An error occurred: {e}"
+
+# To test this, you would need to create a file named 'sample.txt' 
+# in the same directory as your Python script.
+
+# Example usage (assuming 'sample.txt' exists)
+# If you run this, it will count the lines in your dummy file.
+# line_tally = count_file_lines("sample.txt")
+# print(f"Total lines in file: {line_tally}")
+
+# Example usage with a non-existent file
+line_tally_error = count_file_lines("nonexistent_file.log")
+print(line_tally_error)
