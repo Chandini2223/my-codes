@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int value = 42;
+    int *ptr; // Declare a pointer to an integer
+
+    ptr = &value; // Assign the memory address of 'value' to 'ptr'
+
+    printf("Value of the variable: %d\n", value);
+    printf("Address of the variable (&value): %p\n", &value);
+    printf("Value stored in the pointer (ptr): %p\n", ptr);
+    
+    // Dereference the pointer to get the value it points to
+    printf("Value pointed to by the pointer (*ptr): %d\n", *ptr); 
+
+    // Change the value using the pointer
+    *ptr = 100;
+    
+    printf("New value of the variable (after pointer modification): %d\n", value);
+
+    return 0;
+}
