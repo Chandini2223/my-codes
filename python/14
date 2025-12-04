@@ -1,0 +1,19 @@
+def merge_dictionaries(dict1, dict2):
+    """Merges two dictionaries. Values from dict2 override values from dict1."""
+    
+    # Create a copy of the first dictionary
+    merged_dict = dict1.copy()
+    
+    # Update the merged dictionary with the second dictionary
+    # The '|' operator (Python 3.9+) or {**dict1, **dict2} (older versions) 
+    # are often preferred for brevity, but update() is clear and versatile.
+    merged_dict.update(dict2)
+    
+    return merged_dict
+
+# Example usage
+user_profile = {"id": 101, "name": "Alice", "status": "active"}
+user_settings = {"status": "inactive", "theme": "dark", "id": 102} # Note: 'id' and 'status' will be overwritten
+
+combined_data = merge_dictionaries(user_profile, user_settings)
+print(f"Merged Dictionary: {combined_data}")
