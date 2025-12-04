@@ -1,0 +1,9 @@
+def reverse_string(s):
+    """Reverses a string using slicing."""
+    return s[::-1]
+
+# Example usage
+original = "hello python"
+reversed_str = reverse_string(original)
+print(f"Original: {original}")
+print(f"Reversed: {reversed_str}")
