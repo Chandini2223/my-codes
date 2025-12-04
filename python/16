@@ -1,0 +1,31 @@
+import csv
+
+def write_data_to_csv(filename, header, data):
+    """Writes a header and a list of data rows to a CSV file."""
+    try:
+        # 'w' mode opens the file for writing. newline='' prevents extra blank rows.
+        with open(filename, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            
+            # Write the header row
+            writer.writerow(header)
+            
+            # Write the data rows
+            writer.writerows(data)
+            
+        print(f"Successfully wrote data to {filename}")
+        return True
+    except Exception as e:
+        print(f"An error occurred while writing to CSV: {e}")
+        return False
+
+# Example usage
+file_name = "products.csv"
+product_header = ["ID", "Name", "Price"]
+product_data = [
+    [1, "Laptop", 1200.00],
+    [2, "Mouse", 25.50],
+    [3, "Monitor", 350.99]
+]
+
+write_data_to_csv(file_name, product_header, product_data)
