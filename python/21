@@ -1,0 +1,18 @@
+def safe_divide(a, b):
+    try:
+        # Attempt to perform the division
+        result = a / b
+        return result
+    except ZeroDivisionError:
+        # This block executes if a ZeroDivisionError occurs
+        print("Error: Cannot divide by zero.")
+        return None
+    except TypeError:
+        # Handles cases where a or b is not a number
+        print("Error: Invalid data type for division.")
+        return None
+
+# Example usage
+print(f"10 / 2 = {safe_divide(10, 2)}")
+print(f"10 / 0 = {safe_divide(10, 0)}")
+print(f"'A' / 2 = {safe_divide('A', 2)}")
