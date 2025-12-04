@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+
+void concatenate_strings() {
+    // Ensure the destination array (s1) is large enough to hold both strings
+    char s1[100] = "Hello, ";
+    char s2[] = "World!";
+    
+    printf("String 1: %s\n", s1);
+    printf("String 2: %s\n", s2);
+
+    // Concatenate s2 onto s1 (s1 is modified)
+    strcat(s1, s2);
+
+    printf("Concatenated String: %s\n", s1); // Output: Hello, World!
+}
+
+int main() {
+    concatenate_strings();
+    return 0;
+}
