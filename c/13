@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void print_multiplication_table() {
+    int num;
+    printf("Enter an integer to see its multiplication table: ");
+    
+    // Read the number from the user
+    if (scanf("%d", &num) != 1) return;
+
+    printf("Multiplication table for %d:\n", num);
+    
+    // Loop 10 times (from i=1 to i=10)
+    for (int i = 1; i <= 10; i++) {
+        int result = num * i;
+        printf("%d x %d = %d\n", num, i, result);
+    }
+}
+
+int main() {
+    print_multiplication_table();
+    return 0;
+}
