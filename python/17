@@ -1,0 +1,30 @@
+def calculate_stats(data):
+    """Calculates the mean and median of a list of numbers."""
+    
+    n = len(data)
+    if n == 0:
+        return {"mean": None, "median": None}
+
+    # Calculate Mean (Average)
+    mean = sum(data) / n
+    
+    # Calculate Median
+    sorted_data = sorted(data)
+    
+    if n % 2 == 1:
+        # Odd number of elements: Median is the middle element
+        median = sorted_data[n // 2]
+    else:
+        # Even number of elements: Median is the average of the two middle elements
+        mid1 = sorted_data[n // 2 - 1]
+        mid2 = sorted_data[n // 2]
+        median = (mid1 + mid2) / 2
+        
+    return {"mean": mean, "median": median}
+
+# Example usage (Odd and Even sized datasets)
+scores_odd = [10, 20, 30, 40, 50]
+scores_even = [10, 20, 30, 40]
+
+print(f"Stats for {scores_odd}: {calculate_stats(scores_odd)}")
+print(f"Stats for {scores_even}: {calculate_stats(scores_even)}")
