@@ -1,0 +1,12 @@
+def square_numbers(data_list):
+    # This single line replaces a multi-line loop structure
+    # New_List = [expression for item in iterable if condition]
+    squared_list = [x ** 2 for x in data_list]
+    return squared_list
+
+# Example usage
+original_numbers = [1, 2, 3, 4, 5]
+squares = square_numbers(original_numbers)
+
+print(f"Original: {original_numbers}")
+print(f"Squares: {squares}")
