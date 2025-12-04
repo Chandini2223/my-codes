@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+void sum_even_in_range(int start, int end) {
+    int sum = 0;
+    
+    if (start > end) {
+        // Swap if start is greater than end
+        int temp = start;
+        start = end;
+        end = temp;
+    }
+
+    // Loop through the range
+    for (int i = start; i <= end; i++) {
+        // Check if the current number is even
+        if (i % 2 == 0) {
+            sum += i;
+        }
+    }
+    
+    printf("Sum of even numbers between %d and %d is: %d\n", start, end, sum);
+}
+
+int main() {
+    sum_even_in_range(1, 10);  // Output: 2 + 4 + 6 + 8 + 10 = 30
+    sum_even_in_range(3, 7);   // Output: 4 + 6 = 10
+    return 0;
+}
