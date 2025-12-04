@@ -1,0 +1,12 @@
+def create_greeting(name, title):
+    """Creates a custom greeting using f-strings."""
+    # f-string syntax: variables are placed inside curly braces {}
+    greeting = f"Hello, {title} {name}! Welcome to the Python world."
+    return greeting
+
+# Example usage
+user_name = "Charlie"
+user_title = "Dr."
+
+message = create_greeting(user_name, user_title)
+print(message)
