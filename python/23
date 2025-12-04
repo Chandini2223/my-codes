@@ -1,0 +1,22 @@
+def read_file_content(filename="data.txt"):
+    """Reads and returns the entire content of a specified text file."""
+    try:
+        # 'r' mode opens the file for reading. The 'with' statement ensures closure.
+        with open(filename, 'r') as file:
+            content = file.read()
+            return content
+    except FileNotFoundError:
+        return f"Error: The file '{filename}' was not found."
+    except Exception as e:
+        return f"An error occurred: {e}"
+
+# To test this, create a file named 'data.txt' with some content.
+
+# Example usage (assuming 'data.txt' exists with content like "Hello\nWorld")
+# file_data = read_file_content("data.txt")
+# print("--- File Content ---")
+# print(file_data)
+
+# Example with non-existent file
+error_message = read_file_content("missing_file.txt")
+print(error_message)
