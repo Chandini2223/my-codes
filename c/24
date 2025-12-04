@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int count_digits(int n) {
+    int count = 0;
+
+    // Handle the case where the input is 0 separately
+    if (n == 0) {
+        return 1;
+    }
+
+    // Ensure we work with a positive number
+    if (n < 0) {
+        n = -n;
+    }
+
+    while (n != 0) {
+        // Remove the last digit
+        n = n / 10;
+        count++;
+    }
+    
+    return count;
+}
+
+int main() {
+    int number1 = 12345;
+    int number2 = 9;
+    int number3 = 0;
+
+    printf("Number of digits in %d: %d\n", number1, count_digits(number1));
+    printf("Number of digits in %d: %d\n", number2, count_digits(number2));
+    printf("Number of digits in %d: %d\n", number3, count_digits(number3));
+
+    return 0;
+}
