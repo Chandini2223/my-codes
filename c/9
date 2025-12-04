@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void calculate_rectangle_props() {
+    float length, width, area, perimeter;
+
+    printf("Enter the length of the rectangle: ");
+    // Read user input for length
+    if (scanf("%f", &length) != 1) return; 
+
+    printf("Enter the width of the rectangle: ");
+    // Read user input for width
+    if (scanf("%f", &width) != 1) return;
+
+    // Calculate Area: A = L * W
+    area = length * width;
+    
+    // Calculate Perimeter: P = 2 * (L + W)
+    perimeter = 2 * (length + width);
+
+    printf("Area of the rectangle: %.2f\n", area);
+    printf("Perimeter of the rectangle: %.2f\n", perimeter);
+}
+
+int main() {
+    calculate_rectangle_props();
+    return 0;
+}
