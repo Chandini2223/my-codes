@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int string_length_manual(const char *str) {
+    int length = 0;
+    
+    // Loop until the null terminator character is reached
+    while (str[length] != '\0') {
+        length++;
+    }
+    
+    return length;
+}
+
+int main() {
+    char greeting[] = "Hello C World";
+    
+    int len = string_length_manual(greeting);
+    
+    printf("The string is: \"%s\"\n", greeting);
+    printf("Manual length calculated: %d\n", len);
+    
+    return 0;
+}
