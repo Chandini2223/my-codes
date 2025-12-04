@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void find_largest_of_three(int a, int b, int c) {
+    int largest;
+
+    if (a >= b && a >= c) {
+        largest = a;
+    } else if (b >= a && b >= c) {
+        largest = b;
+    } else {
+        largest = c;
+    }
+
+    printf("The largest number among %d, %d, and %d is: %d\n", a, b, c, largest);
+}
+
+int main() {
+    find_largest_of_three(25, 10, 30);
+    find_largest_of_three(5, 5, 2); // Handles ties (returns 5)
+    return 0;
+}
