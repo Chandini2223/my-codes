@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+
+void check_string_equality() {
+    char str1[] = "apple";
+    char str2[] = "apple";
+    char str3[] = "Apple";
+
+    // strcmp returns 0 if the strings are identical
+    if (strcmp(str1, str2) == 0) {
+        printf("'%s' and '%s' are equal.\n", str1, str2);
+    } else {
+        printf("'%s' and '%s' are not equal.\n", str1, str2);
+    }
+
+    // Example with different case
+    if (strcmp(str1, str3) == 0) {
+        printf("'%s' and '%s' are equal.\n", str1, str3);
+    } else {
+        printf("'%s' and '%s' are NOT equal (due to case).\n", str1, str3);
+    }
+}
+
+int main() {
+    check_string_equality();
+    return 0;
+}
