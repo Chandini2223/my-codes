@@ -1,0 +1,15 @@
+def print_dictionary_items(data_dict):
+    """Prints all key-value pairs in a dictionary."""
+    print("--- Dictionary Contents ---")
+    for key, value in data_dict.items():
+        print(f"Key: {key}, Value: {value}")
+
+# Example usage
+student_info = {
+    "name": "Alex",
+    "age": 21,
+    "major": "CompSci",
+    "gpa": 3.8
+}
+
+print_dictionary_items(student_info)
