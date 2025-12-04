@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h> // Required for pow()
+
+void calculate_power() {
+    double base, exponent, result;
+
+    printf("Enter the base number: ");
+    if (scanf("%lf", &base) != 1) return;
+    
+    printf("Enter the exponent (power): ");
+    if (scanf("%lf", &exponent) != 1) return;
+
+    // Use the pow() function: pow(base, exponent)
+    result = pow(base, exponent);
+
+    printf("%.2lf raised to the power of %.2lf is: %.2lf\n", 
+           base, exponent, result);
+}
+
+int main() {
+    calculate_power();
+    return 0;
+}
