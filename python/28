@@ -1,0 +1,20 @@
+def check_number_sign(number):
+    """Checks if a number is positive, negative, or zero."""
+    
+    if number > 0:
+        return "Positive"
+    elif number < 0:
+        # If the first condition is False, check this one
+        return "Negative"
+    else:
+        # If both previous conditions are False (i.e., number is 0)
+        return "Zero"
+
+# Example usage
+num1 = 50
+num2 = -5
+num3 = 0
+
+print(f"{num1} is: {check_number_sign(num1)}")
+print(f"{num2} is: {check_number_sign(num2)}")
+print(f"{num3} is: {check_number_sign(num3)}")
