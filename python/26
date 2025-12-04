@@ -1,0 +1,18 @@
+def count_vowels(text):
+    """Counts the total number of vowels (a, e, i, o, u) in a string."""
+    
+    # Define the vowels and convert the input text to lowercase for easy comparison
+    vowels = "aeiou"
+    text_lower = text.lower()
+    vowel_count = 0
+    
+    for char in text_lower:
+        if char in vowels:
+            vowel_count += 1
+            
+    return vowel_count
+
+# Example usage
+sample_text = "Programming is an interesting field"
+count = count_vowels(sample_text)
+print(f"The text has {count} vowels.")
