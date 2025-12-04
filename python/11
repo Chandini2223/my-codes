@@ -1,0 +1,16 @@
+import re # Import regex module for simple cleaning
+
+def is_palindrome(text):
+    """Checks if a string is a palindrome, ignoring case and non-alphanumeric chars."""
+    # 1. Clean the text: convert to lowercase and remove non-alphanumeric characters
+    cleaned_text = re.sub(r'[^a-z0-9]', '', text.lower())
+    
+    # 2. Compare the cleaned text with its reverse
+    # Python's slicing [::-1] creates the reverse string
+    return cleaned_text == cleaned_text[::-1]
+
+# Example usage
+word1 = "A man, a plan, a canal: Panama"
+word2 = "Python"
+print(f"'{word1}' is a palindrome: {is_palindrome(word1)}")
+print(f"'{word2}' is a palindrome: {is_palindrome(word2)}")
