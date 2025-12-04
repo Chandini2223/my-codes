@@ -1,0 +1,14 @@
+def join_list_with_delimiter(word_list, delimiter=" "):
+    """Joins a list of strings using the specified delimiter."""
+    
+    # The delimiter string calls the join() method
+    result_string = delimiter.join(word_list)
+    return result_string
+
+# Example usage
+words_to_join = ["Python", "Code", "Is", "Awesome"]
+space_separated = join_list_with_delimiter(words_to_join)
+dash_separated = join_list_with_delimiter(words_to_join, delimiter="-")
+
+print(f"Space Joined: {space_separated}")
+print(f"Dash Joined: {dash_separated}")
