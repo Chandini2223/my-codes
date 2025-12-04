@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void check_even_odd() {
+    int number;
+    printf("Enter an integer: ");
+    
+    // Read the integer from the user
+    if (scanf("%d", &number) != 1) return;
+
+    // Check the remainder when divided by 2
+    if (number % 2 == 0) {
+        printf("%d is an Even number.\n", number);
+    } else {
+        printf("%d is an Odd number.\n", number);
+    }
+}
+
+int main() {
+    check_even_odd();
+    return 0;
+}
