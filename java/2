@@ -1,0 +1,23 @@
+class FactorialCalculator {
+    public static long calculateFactorial(int n) {
+        if (n < 0) {
+            System.out.println("Factorial not defined for negative numbers.");
+            return -1;
+        }
+        
+        long result = 1;
+        // Loop from 1 up to n, multiplying at each step
+        for (int i = 1; i <= n; i++) {
+            result *= i;
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int num = 5;
+        long fact = calculateFactorial(num);
+        if (fact != -1) {
+            System.out.println("Factorial of " + num + " is: " + fact); // Output: 120
+        }
+    }
+}
