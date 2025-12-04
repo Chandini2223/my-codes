@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void fill_array_sequential(int size) {
+    if (size <= 0) {
+        printf("Array size must be positive.\n");
+        return;
+    }
+    
+    int arr[size]; // Variable-Length Array (VLA), supported by C99 and later
+
+    printf("Array elements: ");
+    for (int i = 0; i < size; i++) {
+        arr[i] = i + 1; // Assign value 1, 2, 3, ...
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+int main() {
+    fill_array_sequential(7);
+    return 0;
+}
