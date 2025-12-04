@@ -1,0 +1,21 @@
+def count_words(sentence):
+    """Counts the frequency of each word in a sentence."""
+    # Convert to lowercase and split the sentence into a list of words
+    words = sentence.lower().split()
+    
+    # Use a dictionary to store counts
+    word_counts = {}
+    
+    for word in words:
+        # Remove punctuation if needed (simple approach for this example)
+        cleaned_word = word.strip('.,!?"')
+        
+        # Increment the count for the word
+        word_counts[cleaned_word] = word_counts.get(cleaned_word, 0) + 1
+        
+    return word_counts
+
+# Example usage
+text = "Python is great, and Python is easy to learn."
+counts = count_words(text)
+print(f"Word Counts: {counts}")
