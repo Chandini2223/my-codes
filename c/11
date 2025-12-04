@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+void check_vowel_consonant() {
+    char ch;
+
+    printf("Enter a single alphabet character: ");
+    // Read the character input
+    if (scanf(" %c", &ch) != 1) return; 
+
+    // Convert to lowercase for simplified checking
+    if (ch >= 'A' && ch <= 'Z') {
+        ch = ch + 32; // ASCII conversion: 'A' -> 'a', etc.
+    }
+
+    if (ch >= 'a' && ch <= 'z') {
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+            printf("%c is a Vowel.\n", ch);
+        } else {
+            printf("%c is a Consonant.\n", ch);
+        }
+    } else {
+        printf("Input is not a valid alphabet character.\n");
+    }
+}
+
+int main() {
+    check_vowel_consonant();
+    return 0;
+}
