@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void use_ternary_operator() {
+    int age = 19;
+    
+    // Ternary syntax: condition ? expression_if_true : expression_if_false
+    
+    // Determine the status string based on age
+    const char *status = (age >= 18) ? "Adult" : "Minor";
+    
+    printf("The person's age is %d.\n", age);
+    printf("The person is considered an: %s\n", status);
+}
+
+int main() {
+    use_ternary_operator();
+    return 0;
+}
