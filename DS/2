@@ -1,0 +1,30 @@
+#include <stdio.h>
+#define SIZE 5
+
+int queue[SIZE];
+int front = 0, rear = 0;
+
+void enqueue(int x) {
+    if(rear == SIZE) printf("Queue Full\n");
+    else queue[rear++] = x;
+}
+
+void dequeue() {
+    if(front == rear) printf("Queue Empty\n");
+    else printf("Dequeued: %d\n", queue[front++]);
+}
+
+void display() {
+    for(int i = front; i < rear; i++) printf("%d ", queue[i]);
+    printf("\n");
+}
+
+int main() {
+    enqueue(10);
+    enqueue(20);
+    enqueue(30);
+    display();
+    dequeue();
+    display();
+    return 0;
+}
