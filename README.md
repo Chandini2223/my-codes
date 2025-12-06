@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Dynamic Programming
 |  |
@@ -25,4 +26,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
 <!---LeetCode Topics End-->
