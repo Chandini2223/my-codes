@@ -1,0 +1,32 @@
+#include <stdio.h>
+#define MAX 5
+
+int stack[MAX];
+int top = -1;
+
+void push(int x) {
+    if(top == MAX-1) printf("Stack Overflow\n");
+    else stack[++top] = x;
+}
+
+void pop() {
+    if(top == -1) printf("Stack Underflow\n");
+    else printf("Popped: %d\n", stack[top--]);
+}
+
+void reversePrint(int idx) {
+    if(idx < 0) return;
+    printf("%d ", stack[idx]);
+    reversePrint(idx-1);
+}
+
+int main() {
+    push(10);
+    push(20);
+    push(30);
+    printf("Stack in reverse order: ");
+    reversePrint(top);
+    printf("\n");
+    pop();
+    return 0;
+}
