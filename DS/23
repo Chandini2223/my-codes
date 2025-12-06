@@ -1,0 +1,41 @@
+#include <stdio.h>
+#define SIZE 100
+int heap[SIZE], n=0;
+
+void heapifyUp(int i) {
+    while(i != 0 && heap[(i-1)/2] > heap[i]) {
+        int temp = heap[i]; heap[i] = heap[(i-1)/2]; heap[(i-1)/2] = temp;
+        i = (i-1)/2;
+    }
+}
+
+void insert(int key) {
+    heap[n] = key;
+    heapifyUp(n);
+    n++;
+}
+
+void heapifyDown(int i) {
+    int smallest = i;
+    int left = 2*i+1, right=2*i+2;
+    if(left < n && heap[left] < heap[smallest]) smallest=left;
+    if(right < n && heap[right] < heap[smallest]) smallest=right;
+    if(smallest != i) {
+        int temp=heap[i]; heap[i]=heap[smallest]; heap[smallest]=temp;
+        heapifyDown(smallest);
+    }
+}
+
+int extractMin() {
+    int min = heap[0];
+    heap[0] = heap[--n];
+    heapifyDown(0);
+    return min;
+}
+
+int main() {
+    insert(10); insert(5); insert(20);
+    printf("Min element: %d\n", extractMin());
+    printf("Min element: %d\n", extractMin());
+    return 0;
+}
