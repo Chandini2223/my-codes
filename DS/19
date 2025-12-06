@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int pq[10], size = 0;
+
+void insert(int x) {
+    pq[size++] = x;
+}
+
+int extractMax() {
+    int maxIndex = 0;
+    for(int i = 1; i < size; i++)
+        if(pq[i] > pq[maxIndex]) maxIndex = i;
+
+    int maxVal = pq[maxIndex];
+    for(int i = maxIndex; i < size-1; i++) pq[i] = pq[i+1];
+    size--;
+    return maxVal;
+}
+
+int main() {
+    insert(10);
+    insert(30);
+    insert(20);
+    printf("Max element: %d\n", extractMax());
+    printf("Max element: %d\n", extractMax());
+    return 0;
+}
