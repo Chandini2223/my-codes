@@ -35,8 +35,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0032-longest-valid-parentheses) |
+| [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
 ## Stack
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0032-longest-valid-parentheses) |
+## Math
+|  |
+| ------- |
+| [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
+## Simulation
+|  |
+| ------- |
+| [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
 <!---LeetCode Topics End-->
