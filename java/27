@@ -1,0 +1,6 @@
+class Solution {
+    public int countOdds(int low, int high) {
+        // simple formula to count odd numbers in range
+        return (high + 1) / 2 - low / 2;
+    }
+}
