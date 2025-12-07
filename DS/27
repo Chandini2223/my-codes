@@ -1,0 +1,13 @@
+import std.stdio;
+
+class Solution {
+    int countOdds(int low, int high) {
+        return (high + 1) / 2 - low / 2;
+    }
+}
+
+void main() {
+    auto sol = new Solution();
+    writeln(sol.countOdds(3, 7));   // Output: 3
+    writeln(sol.countOdds(8, 10));  // Output: 1
+}
