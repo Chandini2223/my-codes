@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+| [3583-count-special-triplets](https://github.com/Chandini2223/my-codes/tree/master/3583-count-special-triplets) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -50,4 +51,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
+## Hash Table
+|  |
+| ------- |
+| [3583-count-special-triplets](https://github.com/Chandini2223/my-codes/tree/master/3583-count-special-triplets) |
+## Counting
+|  |
+| ------- |
+| [3583-count-special-triplets](https://github.com/Chandini2223/my-codes/tree/master/3583-count-special-triplets) |
 <!---LeetCode Topics End-->
