@@ -1,0 +1,23 @@
+class Solution {
+    static final long MOD = 1000000007;
+
+    public int countPermutations(int[] complexity) {
+        int n = complexity.length;
+        int first = complexity[0];
+
+        // Check strict global minimum
+        for (int i = 1; i < n; i++) {
+            if (complexity[i] <= first) {
+                return 0;
+            }
+        }
+
+        // Compute (n-1)!
+        long ans = 1;
+        for (long i = 2; i < n; i++) {
+            ans = (ans * i) % MOD;
+        }
+
+        return (int) ans;
+    }
+}
