@@ -1,0 +1,19 @@
+#define MOD 1000000007
+
+int countPermutations(int* complexity, int complexitySize){
+    long long first = complexity[0];
+
+    // Check strict global minimum
+    for(int i = 1; i < complexitySize; i++){
+        if(complexity[i] <= first) 
+            return 0;
+    }
+
+    // Compute (n-1)!
+    long long ans = 1;
+    for(long long i = 2; i < complexitySize; i++){
+        ans = (ans * i) % MOD;
+    }
+
+    return (int)ans;
+}
