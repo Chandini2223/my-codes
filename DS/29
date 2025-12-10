@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+#define MOD 1000000007
+
+// DS utility: compute factorial mod
+long long factorial_mod(int n) {
+    long long fact = 1;
+    for (int i = 2; i <= n; i++) {
+        fact = (fact * i) % MOD;
+    }
+    return fact;
+}
+
+// Main problem function
+int countPermutations(int* complexity, int n) {
+    int first = complexity[0];
+
+    // Check if first is strict global minimum
+    for (int i = 1; i < n; i++) {
+        if (complexity[i] <= first) {
+            return 0;
+        }
+    }
+
+    // result = (n-1)! % MOD
+    return (int) factorial_mod(n - 1);
+}
