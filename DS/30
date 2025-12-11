@@ -1,0 +1,84 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int cmp(const void *a, const void *b) {
+    return (*(int*)a - *(int*)b);
+}
+
+int countCoveredBuildings(int n, int** buildings, int size, int* colSize) {
+    // rows[x] -> dynamic array of y
+    // cols[y] -> dynamic array of x
+    int **rows = calloc(n+1, sizeof(int*));
+    int **cols = calloc(n+1, sizeof(int*));
+    int *rowCnt = calloc(n+1, sizeof(int));
+    int *colCnt = calloc(n+1, sizeof(int));
+
+    // First pass: count
+    for (int i = 0; i < size; i++) {
+        int x = buildings[i][0], y = buildings[i][1];
+        rowCnt[x]++;
+        colCnt[y]++;
+    }
+
+    // Allocate memory
+    for (int i = 1; i <= n; i++) {
+        if (rowCnt[i]) rows[i] = malloc(rowCnt[i] * sizeof(int));
+        if (colCnt[i]) cols[i] = malloc(colCnt[i] * sizeof(int));
+        rowCnt[i] = colCnt[i] = 0; // reset counters
+    }
+
+    // Fill arrays
+    for (int i = 0; i < size; i++) {
+        int x = buildings[i][0], y = buildings[i][1];
+        rows[x][rowCnt[x]++] = y;
+        cols[y][colCnt[y]++] = x;
+    }
+
+    // Sort lists
+    for (int i = 1; i <= n; i++) {
+        if (rowCnt[i]) qsort(rows[i], rowCnt[i], sizeof(int), cmp);
+        if (colCnt[i]) qsort(cols[i], colCnt[i], sizeof(int), cmp);
+    }
+
+    int count = 0;
+
+    // Check coverage
+    for (int i = 0; i < size; i++) {
+        int x = buildings[i][0], y = buildings[i][1];
+
+        // Binary search in row
+        int *r = rows[x];
+        int rc = rowCnt[x];
+        int li = 0, ri = rc - 1, mid;
+
+        while (li <= ri) {
+            mid = (li + ri) / 2;
+            if (r[mid] == y) break;
+            if (r[mid] < y) li = mid + 1;
+            else ri = mid - 1;
+        }
+
+        int hasLeft = (mid > 0);
+        int hasRight = (mid + 1 < rc);
+
+        // Binary search in col
+        int *c = cols[y];
+        int cc = colCnt[y];
+        li = 0; ri = cc - 1;
+
+        while (li <= ri) {
+            mid = (li + ri) / 2;
+            if (c[mid] == x) break;
+            if (c[mid] < x) li = mid + 1;
+            else ri = mid - 1;
+        }
+
+        int hasUp = (mid > 0);
+        int hasDown = (mid + 1 < cc);
+
+        if (hasLeft && hasRight && hasUp && hasDown)
+            count++;
+    }
+
+    return count;
+}
