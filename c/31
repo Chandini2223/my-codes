@@ -1,0 +1,47 @@
+int min(int a, int b) { return a < b ? a : b; }
+int max(int a, int b) { return a > b ? a : b; }
+
+int countCoveredBuildings(int n, int** buildings, int buildingsSize, int* buildingsColSize){
+    int *minRow = (int*)malloc((n+1) * sizeof(int));
+    int *maxRow = (int*)malloc((n+1) * sizeof(int));
+    int *minCol = (int*)malloc((n+1) * sizeof(int));
+    int *maxCol = (int*)malloc((n+1) * sizeof(int));
+
+    for (int i = 1; i <= n; i++) {
+        minRow[i] = 1000000000;
+        minCol[i] = 1000000000;
+        maxRow[i] = -1;
+        maxCol[i] = -1;
+    }
+
+    // Step 1: Find min/max in row/column
+    for (int i = 0; i < buildingsSize; i++) {
+        int x = buildings[i][0];
+        int y = buildings[i][1];
+
+        minRow[y] = min(minRow[y], x);
+        maxRow[y] = max(maxRow[y], x);
+
+        minCol[x] = min(minCol[x], y);
+        maxCol[x] = max(maxCol[x], y);
+    }
+
+    // Step 2: Count covered
+    int count = 0;
+    for (int i = 0; i < buildingsSize; i++) {
+        int x = buildings[i][0];
+        int y = buildings[i][1];
+
+        if (minRow[y] < x && x < maxRow[y] &&
+            minCol[x] < y && y < maxCol[x]) {
+            count++;
+        }
+    }
+
+    free(minRow);
+    free(maxRow);
+    free(minCol);
+    free(maxCol);
+
+    return count;
+}
