@@ -1,0 +1,23 @@
+class Solution:
+    def countCoveredBuildings(self, n: int, buildings: List[List[int]]) -> int:
+        minRow = [10**18] * (n+1)
+        maxRow = [-1] * (n+1)
+        minCol = [10**18] * (n+1)
+        maxCol = [-1] * (n+1)
+
+        # Step 1: Track min/max x in each column and min/max y in each row
+        for x, y in buildings:
+            minRow[y] = min(minRow[y], x)
+            maxRow[y] = max(maxRow[y], x)
+
+            minCol[x] = min(minCol[x], y)
+            maxCol[x] = max(maxCol[x], y)
+
+        count = 0
+
+        # Step 2: Check if building is covered
+        for x, y in buildings:
+            if minRow[y] < x < maxRow[y] and minCol[x] < y < maxCol[x]:
+                count += 1
+
+        return count
