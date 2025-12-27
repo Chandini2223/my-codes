@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
+| [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Chandini2223/my-codes/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -54,9 +55,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
+| [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 ## Hash Table
 |  |
 | ------- |
+| [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/Chandini2223/my-codes/tree/master/3583-count-special-triplets) |
 ## Counting
@@ -74,5 +77,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 <!---LeetCode Topics End-->
