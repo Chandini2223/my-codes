@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Chandini2223/my-codes/tree/master/0209-minimum-size-subarray-sum) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
@@ -22,10 +23,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Chandini2223/my-codes/tree/master/0209-minimum-size-subarray-sum) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Chandini2223/my-codes/tree/master/0209-minimum-size-subarray-sum) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Monotonic Queue
 |  |
@@ -83,4 +86,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
+## Binary Search
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Chandini2223/my-codes/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
