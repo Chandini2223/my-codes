@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0032-longest-valid-parentheses) |
+| [0091-decode-ways](https://github.com/Chandini2223/my-codes/tree/master/0091-decode-ways) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Queue
 |  |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0032-longest-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
 | [0058-length-of-last-word](https://github.com/Chandini2223/my-codes/tree/master/0058-length-of-last-word) |
+| [0091-decode-ways](https://github.com/Chandini2223/my-codes/tree/master/0091-decode-ways) |
 ## Stack
 |  |
 | ------- |
