@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0032-longest-valid-parentheses) |
 | [0091-decode-ways](https://github.com/Chandini2223/my-codes/tree/master/0091-decode-ways) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Chandini2223/my-codes/tree/master/0095-unique-binary-search-trees-ii) |
+| [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Queue
 |  |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
+| [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Chandini2223/my-codes/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Chandini2223/my-codes/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Simulation
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Chandini2223/my-codes/tree/master/0094-binary-tree-inorder-traversal) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Chandini2223/my-codes/tree/master/0095-unique-binary-search-trees-ii) |
+| [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -118,8 +121,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Chandini2223/my-codes/tree/master/0094-binary-tree-inorder-traversal) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Chandini2223/my-codes/tree/master/0095-unique-binary-search-trees-ii) |
+| [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/Chandini2223/my-codes/tree/master/0095-unique-binary-search-trees-ii) |
+| [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
 <!---LeetCode Topics End-->
