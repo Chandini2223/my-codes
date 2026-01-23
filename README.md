@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
 | [0058-length-of-last-word](https://github.com/Chandini2223/my-codes/tree/master/0058-length-of-last-word) |
 | [0091-decode-ways](https://github.com/Chandini2223/my-codes/tree/master/0091-decode-ways) |
+| [0093-restore-ip-addresses](https://github.com/Chandini2223/my-codes/tree/master/0093-restore-ip-addresses) |
 ## Stack
 |  |
 | ------- |
@@ -96,4 +97,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0092-reverse-linked-list-ii](https://github.com/Chandini2223/my-codes/tree/master/0092-reverse-linked-list-ii) |
+## Backtracking
+|  |
+| ------- |
+| [0093-restore-ip-addresses](https://github.com/Chandini2223/my-codes/tree/master/0093-restore-ip-addresses) |
 <!---LeetCode Topics End-->
