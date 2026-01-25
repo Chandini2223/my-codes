@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Chandini2223/my-codes/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Chandini2223/my-codes/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Chandini2223/my-codes/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0128-longest-consecutive-sequence](https://github.com/Chandini2223/my-codes/tree/master/0128-longest-consecutive-sequence) |
 | [0209-minimum-size-subarray-sum](https://github.com/Chandini2223/my-codes/tree/master/0209-minimum-size-subarray-sum) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Chandini2223/my-codes/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chandini2223/my-codes/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/Chandini2223/my-codes/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/Chandini2223/my-codes/tree/master/0128-longest-consecutive-sequence) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/Chandini2223/my-codes/tree/master/3583-count-special-triplets) |
@@ -237,4 +239,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Chandini2223/my-codes/tree/master/0125-valid-palindrome) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Chandini2223/my-codes/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
