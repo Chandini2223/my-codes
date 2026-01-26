@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Chandini2223/my-codes/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Chandini2223/my-codes/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/Chandini2223/my-codes/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 | [0209-minimum-size-subarray-sum](https://github.com/Chandini2223/my-codes/tree/master/0209-minimum-size-subarray-sum) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Chandini2223/my-codes/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Chandini2223/my-codes/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Chandini2223/my-codes/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Queue
 |  |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Chandini2223/my-codes/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Chandini2223/my-codes/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Chandini2223/my-codes/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 ## Stack
 |  |
 | ------- |
@@ -110,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Chandini2223/my-codes/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/Chandini2223/my-codes/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/Chandini2223/my-codes/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/Chandini2223/my-codes/tree/master/3583-count-special-triplets) |
@@ -154,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0095-unique-binary-search-trees-ii](https://github.com/Chandini2223/my-codes/tree/master/0095-unique-binary-search-trees-ii) |
 | [0113-path-sum-ii](https://github.com/Chandini2223/my-codes/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Chandini2223/my-codes/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 ## Tree
 |  |
 | ------- |
@@ -284,8 +289,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Chandini2223/my-codes/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 ## Memoization
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Chandini2223/my-codes/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 <!---LeetCode Topics End-->
