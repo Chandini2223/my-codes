@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Chandini2223/my-codes/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 | [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Chandini2223/my-codes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0209-minimum-size-subarray-sum](https://github.com/Chandini2223/my-codes/tree/master/0209-minimum-size-subarray-sum) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
@@ -95,12 +96,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Chandini2223/my-codes/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Chandini2223/my-codes/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Chandini2223/my-codes/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Chandini2223/my-codes/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Math
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
 | [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
 | [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Chandini2223/my-codes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Chandini2223/my-codes/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Chandini2223/my-codes/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Simulation
