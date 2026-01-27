@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/Chandini2223/my-codes/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chandini2223/my-codes/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Chandini2223/my-codes/tree/master/0146-lru-cache) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/Chandini2223/my-codes/tree/master/3583-count-special-triplets) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Chandini2223/my-codes/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chandini2223/my-codes/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Chandini2223/my-codes/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/Chandini2223/my-codes/tree/master/0146-lru-cache) |
 ## Backtracking
 |  |
 | ------- |
@@ -316,4 +318,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Chandini2223/my-codes/tree/master/0143-reorder-list) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Chandini2223/my-codes/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Chandini2223/my-codes/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
