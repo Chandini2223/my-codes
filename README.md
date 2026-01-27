@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0147-insertion-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0147-insertion-sort-list) |
+| [0148-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0148-sort-list) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
 ## Heap (Priority Queue)
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Chandini2223/my-codes/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/Chandini2223/my-codes/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0147-insertion-sort-list) |
+| [0148-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0148-sort-list) |
 ## Backtracking
 |  |
 | ------- |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Chandini2223/my-codes/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chandini2223/my-codes/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Chandini2223/my-codes/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0148-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0148-sort-list) |
 ## Greedy
 |  |
 | ------- |
@@ -293,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Chandini2223/my-codes/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chandini2223/my-codes/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Chandini2223/my-codes/tree/master/0143-reorder-list) |
+| [0148-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0148-sort-list) |
 ## Union-Find
 |  |
 | ------- |
@@ -328,4 +332,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Chandini2223/my-codes/tree/master/0146-lru-cache) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
