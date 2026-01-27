@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/Chandini2223/my-codes/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/Chandini2223/my-codes/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
+| [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
 | [0209-minimum-size-subarray-sum](https://github.com/Chandini2223/my-codes/tree/master/0209-minimum-size-subarray-sum) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
 | [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
+| [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Chandini2223/my-codes/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Chandini2223/my-codes/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Simulation
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Chandini2223/my-codes/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Chandini2223/my-codes/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Chandini2223/my-codes/tree/master/0146-lru-cache) |
+| [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/Chandini2223/my-codes/tree/master/3583-count-special-triplets) |
@@ -336,4 +339,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0148-sort-list) |
+## Geometry
+|  |
+| ------- |
+| [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
 <!---LeetCode Topics End-->
