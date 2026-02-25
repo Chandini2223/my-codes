@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/Chandini2223/my-codes/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Chandini2223/my-codes/tree/master/0137-single-number-ii) |
+| [0190-reverse-bits](https://github.com/Chandini2223/my-codes/tree/master/0190-reverse-bits) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Chandini2223/my-codes/tree/master/1018-binary-prefix-divisible-by-5) |
 ## String
 |  |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Chandini2223/my-codes/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Chandini2223/my-codes/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0148-sort-list) |
+| [0190-reverse-bits](https://github.com/Chandini2223/my-codes/tree/master/0190-reverse-bits) |
 ## Greedy
 |  |
 | ------- |
