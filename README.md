@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0032-longest-valid-parentheses) |
 | [0091-decode-ways](https://github.com/Chandini2223/my-codes/tree/master/0091-decode-ways) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Chandini2223/my-codes/tree/master/0095-unique-binary-search-trees-ii) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0032-longest-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
 | [0058-length-of-last-word](https://github.com/Chandini2223/my-codes/tree/master/0058-length-of-last-word) |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0022-generate-parentheses) |
 | [0093-restore-ip-addresses](https://github.com/Chandini2223/my-codes/tree/master/0093-restore-ip-addresses) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Chandini2223/my-codes/tree/master/0095-unique-binary-search-trees-ii) |
 | [0113-path-sum-ii](https://github.com/Chandini2223/my-codes/tree/master/0113-path-sum-ii) |
