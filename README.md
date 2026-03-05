@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
 | [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Chandini2223/my-codes/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0202-happy-number](https://github.com/Chandini2223/my-codes/tree/master/0202-happy-number) |
 | [0233-number-of-digit-one](https://github.com/Chandini2223/my-codes/tree/master/0233-number-of-digit-one) |
 | [0365-water-and-jug-problem](https://github.com/Chandini2223/my-codes/tree/master/0365-water-and-jug-problem) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Chandini2223/my-codes/tree/master/1523-count-odd-numbers-in-an-interval-range) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Chandini2223/my-codes/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Chandini2223/my-codes/tree/master/0146-lru-cache) |
 | [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
+| [0202-happy-number](https://github.com/Chandini2223/my-codes/tree/master/0202-happy-number) |
 | [2402-meeting-rooms-iii](https://github.com/Chandini2223/my-codes/tree/master/2402-meeting-rooms-iii) |
 | [3531-count-covered-buildings](https://github.com/Chandini2223/my-codes/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/Chandini2223/my-codes/tree/master/3583-count-special-triplets) |
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Chandini2223/my-codes/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/Chandini2223/my-codes/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Chandini2223/my-codes/tree/master/0151-reverse-words-in-a-string) |
+| [0202-happy-number](https://github.com/Chandini2223/my-codes/tree/master/0202-happy-number) |
 ## Union-Find
 |  |
 | ------- |
