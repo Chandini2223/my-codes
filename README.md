@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/Chandini2223/my-codes/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/Chandini2223/my-codes/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Chandini2223/my-codes/tree/master/0198-house-robber) |
+| [0233-number-of-digit-one](https://github.com/Chandini2223/my-codes/tree/master/0233-number-of-digit-one) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Chandini2223/my-codes/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Queue
 |  |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
 | [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Chandini2223/my-codes/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0233-number-of-digit-one](https://github.com/Chandini2223/my-codes/tree/master/0233-number-of-digit-one) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Chandini2223/my-codes/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Chandini2223/my-codes/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Simulation
@@ -351,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Chandini2223/my-codes/tree/master/0143-reorder-list) |
+| [0233-number-of-digit-one](https://github.com/Chandini2223/my-codes/tree/master/0233-number-of-digit-one) |
 ## Design
 |  |
 | ------- |
