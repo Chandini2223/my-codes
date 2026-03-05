@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Chandini2223/my-codes/tree/master/0032-longest-valid-parentheses) |
+| [0062-unique-paths](https://github.com/Chandini2223/my-codes/tree/master/0062-unique-paths) |
 | [0091-decode-ways](https://github.com/Chandini2223/my-codes/tree/master/0091-decode-ways) |
 | [0095-unique-binary-search-trees-ii](https://github.com/Chandini2223/my-codes/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/Chandini2223/my-codes/tree/master/0043-multiply-strings) |
+| [0062-unique-paths](https://github.com/Chandini2223/my-codes/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/Chandini2223/my-codes/tree/master/0096-unique-binary-search-trees) |
 | [0149-max-points-on-a-line](https://github.com/Chandini2223/my-codes/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Chandini2223/my-codes/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Chandini2223/my-codes/tree/master/0062-unique-paths) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Chandini2223/my-codes/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Sorting
 |  |
